@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+
+font-family: 'Source Sans Pro';
+font-weight: 100px;
+line-height: 60px;
+color: #212529;
+
+}
+
+.header{
+
+background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+padding: 400px 0;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+text-align: center;
+
+}
+
+.header h3{
+ font-size: 22px;
+font-style: italic;
+color: #363636;
+padding: 10px 0 40px 0;
+
+
+}
+
+.header h1{
+    font-size: 100px;
+    color: #363636;
+}
+
+.header button , .iki button , .qayci , .clik , .lok {
+
+padding: 20px 25px;
+background-color: #1d809f;
+border: none;
+border-radius: 5px;
+color: white;
+font-weight: 900;
+transition: background-color .3s;
+}
+
+.header button:hover{
+    background-color: #155d74;
+    
+    
+}
+
+.iki{
+padding: 100px 0;
+text-align: center;
+
+}
+
+.iki h2{
+font-weight: 900;
+font-size: 29px;
+color: #363636;
+}
+
+.iki p{
+padding: 20px 0 40px 0;
+
+}
+
+.iki p a{
+
+    text-decoration: none;
+    color: #1d809f;
+
+}
+
+.iki p a:hover{
+
+    text-decoration: underline;
+}
+    
+
+
+
+.iki button{
+
+background-color: #363636;
+
+}
+
+.iki button:hover{
+background-color: #202020;
+
+}
+/* -------------- */
+
+.services{
+padding: 100px 0;
+background-color: #1d809f;
+
+}
+
+.wrapper{
+width: 80%;
+margin: auto;
+
+}
+
+.services .text{
+
+text-align: center;
+
+}
+
+.services .text h3{
+color: #ecb807;
+text-transform: uppercase;
+}
+
+
+.services .text h1{
+color: white;
+
+}
+
+.icon1{
+width: 25%;
+text-align: center;
+color: white;
+float: left;
+}
+
+
+
+
+
+.icon-img{
+    width: max-content;
+    padding: 50px 55px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+.icon-img i{
+color: #1d809f;
+font-size: 50px;
+
+}
+
+.icon1 h2{
+padding: 15px 0 10px 0;
+
+}
+
+.icon1 p{
+opacity: 0.6;
+
+}
+
+.work{
+    padding: 100px 0;
+}
+
+.work h4{
+    text-transform: uppercase
+}
+
+
+
+.station{
+    width: 50%;
+    clip-path: inset(0);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: clip-path .4s;
+    float: left;
+}
+
+.station:hover{
+    clip-path: inset(15px);
+   
+}
+
+.station h4{
+color: white;
+margin: 210px 0 0 45px;
+}
+
+
+.station p{
+color: white;
+margin-left: 40px;
+font-size: 20px;
+line-height: 30px;
+
+}
+
+
+
+
+.qayc{
+background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+padding: 300px 0;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+text-align: center;
+}
+
+.qayc button:hover{
+    background-color: #155d74;
+
+}
+.qayc h1{
+padding: 5px;
+
+}   
+
+.ustu h3{
+    color: #ecb807;
+    text-align: center; 
+    padding-top: 70px;
+}
+
+.ustu h1{
+text-align: center;
+font-size: 50px;
+
+}
+
+
+.statio{
+    width: 50%;
+    clip-path: inset(0);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: clip-path .4s;
+    float: left;
+}
+
+.statio:hover{
+    clip-path: inset(15px);
+   
+}
+
+.statio h4{
+    color: white;
+    margin: 210px 0 0 45px;
+
+}
+
+
+.statio p{
+color: white;
+margin-left: 40px;
+font-size: 20px;;
+line-height: 30px;
+}
+.stati{
+    width: 50%;
+    clip-path: inset(0);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-3.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: clip-path .4s;
+    float: left;
+}
+
+.stati:hover{
+    clip-path: inset(15px);
+   
+}
+
+
+.stati h4{
+    color: white;
+    margin: 210px 0 0 45px;
+}
+
+.stati p{
+color: white;
+margin-left: 40px;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+.stat{
+    width: 50%;
+    clip-path: inset(0);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-4.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: clip-path .4s;
+    float: left;
+}
+
+.stat:hover{
+    clip-path: inset(15px);
+   
+}
+
+.stat h4{
+    color: white;
+    margin: 210px 0 0 45px;
+}
+
+.stat p{
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+
+.son{
+
+    padding: 130px 0;
+    background-color:    #1d809f;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+
+
+
+
+.son h1{
+    color: white;
+    margin: 30px 0 55px 0;
+
+}
+
+
+.son button{
+    margin: 20px;
+}
+
+.son .lok{
+
+background-color: #363636;
+padding: 25px 35px;
+border: none;
+border-radius: 5px;
+color: white;
+font-weight: 900;
+transition: background-color .3s;
+
+}
+
+.son .lok:hover{
+    background-color: #000000;
+
+}
+
+.son .clik{
+
+    background-color: white;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    transition: background-color .3s;
+
+
+}
+
+
+.son .clik:hover{
+    background-color: #b3b3b3
+}
+
+
+.iri{
+    padding: 100px 0;
+    background-color: white;
+
+}
+
+.axiri{
+    width: 20%;
+    margin: auto;
+}
+
+
+.sonluq button{
+padding: 20px 25px;
+background-color: #1d809f;
+border: none;
+border-radius:100%;
+color: white;
+font-weight: 900;
+transition: background-color .3s;
+
+}
+
+.sonluq button:hover{
+    background-color: #0f4e61;
+}
+
+.iri h5{
+    opacity: 0.6;
+    margin: 30px 0 0 50px;
+}
+
+.sonluq button{
+    margin-left: 20px;
+}
